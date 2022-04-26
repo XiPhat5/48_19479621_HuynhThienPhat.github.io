@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel=”stylesheet” href=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css”rel=”nofollow” integrity=”sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm” crossorigin=”anonymous”>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="main">
+        <form action="#">
+        <h1>THÔNG TIN CÁ NHÂN</h1>
+             <div class="hovaten">
+                <label class="title" for="txHT">Họ Và Tên </label>
+                <input type="text" name="txtHT" id="txtHT" 
+                placeholder="Nhập họ tên " onblur="kiemHoTen();">
+            <span id="hoten">*</span>
+             </div>
+
+             <div class="soao">
+                <label class="title" for="txSA">Số Áo</label>
+                <input type="text" name="txtSA" id="txtSA" placeholder="Nhập số áo đội tuyển" 
+                onblur="kiemtraSOAO();">
+                <span id="soao">*</span>
+                 </div>
+
+            <div class="caulacbo">
+                    <label class="title" for="txCLB">Câu Lạc Bộ </label>
+                    <input type="text" name="txtCLB" id="txtCLB" 
+                    placeholder="Câu lạc bộ của bạn" onblur="kiemCLB();">
+                <span id="clb">*</span>
+             </div>  
+
+             <div class="ngaytaptrung">
+                <label class="title" for="txNS">Ngày Tập Trung</label>
+                <input type="date" name="txtNS" id="txtNS" 
+            onblur="kiemtraNgayTT();">
+            <span id="ngayTT">*</span>
+             </div>
+
+             <div class="sodienthoai">
+                <label class="title" for="txDT">Số điện thoại</label>
+                <input type="text" name="txtDT" id="txtDT" placeholder="0xxx-xxx-xxx" 
+                onblur="kiemtraDT();">
+            <span id="sodienthoai">*</span>
+             </div>
+
+            <div class="anhdaidien">
+             <label>Ảnh Đại Diện</label>
+             <input type="file" >
+                <span id="anhdaidien">*</span>
+             </div>
+
+             <div class="submit">
+                <button>Lưu</button>
+             </div>
+        </form>
+    </div>
+    <script src="js/signup.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src=”https://code.jquery.com/jquery-3.2.1.slim.min.js” integrity=”sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN” crossorigin=”anonymous”></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js integrity=”sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q” crossorigin=”anonymous”></script>
+    <script src=”https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js” integrity=”sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl” crossorigin=”anonymous”></script>
+</body>
+</html>
